@@ -1,0 +1,163 @@
+@media (min-width: 641px) and (max-width: 960px) {
+  
+  
+    .gallery{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    }
+
+.axis{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+    	#axis_reverse{
+    		display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+    	.photo{
+    		min-width: 100%;
+    	}
+
+/*хедер*/
+header{
+	padding: 0 35px 0 35px;
+}
+#logo{
+	position: static;
+	height: 55px;
+	width: 204px;
+	margin: 40px  282px 180px 282px;
+	z-index: 2;
+	
+}
+h1{
+	font:  65px "OpenSans-Bold", sans-serif;
+	z-index: 3;
+
+}
+.title_1{
+	min-width: 685px;
+	margin: 0 1055px 25px 0;
+}
+.title_2{
+	min-width: 485px;
+	margin: 25px 35px 0 165px;
+}
+b{
+	font-weight: normal;
+	text-align: left;
+}
+
+   /*шрифты первый блок*/
+ h2{
+    margin:90px 35px 20px 290px ;
+
+}
+ h3{
+	font:  32px "OpenSans-Bold", sans-serif;
+    margin:40px 35px 30px 290px ;
+   
+}
+ p{
+	font:  16px "OpenSans-Regular", sans-serif;
+    margin: 0 35px 40px 290px; 
+}
+/*шрифты второй блок*/
+h4{
+	
+    margin:90px 345px 20px 35px ;
+}
+h5{
+	font:  32px "OpenSans-Bold", sans-serif;
+    margin:40px 345px 30px 35px ;
+}
+.p_1{
+ 	font:  16px "OpenSans-Regular", sans-serif;
+    margin: 0 345px 40px 35px; ;
+}
+	.athlets{
+		min-height: 165px;
+		background-color: white;
+		padding-right: 35px;
+		
+	}
+	.connection_1{
+	min-height: 175px;
+	padding-right: 35px;
+}
+	.collaboration-1{
+		min-height: 240px;
+		background-color: #f6f4fa;
+		padding-right: 35px;
+	}
+	.growth-1{
+		min-height: 180px;
+		background-color: #5e4260;
+		padding-right: 35px;
+	}
+	.img_footballer{
+	position: absolute;
+	background-image: url(../img/footballer_497.png);
+	height: 699px;
+	width: 497px;
+	margin: 30px 50px 0 -227px;
+	z-index: 5;
+}
+	.players{
+		min-height: 165px;
+		background-color: #ffff;
+	}
+	.connection_2{
+	min-height: 205px;
+}
+	.img_basketballer{
+	position: absolute;
+	height: 565px;
+	width: 436px;
+	z-index: 6;
+	background-image: url(../img/basketballer_436.png);
+	margin: 30px 0 0 335px;
+}
+	.collaboration-2{
+		min-height: 180px;
+		background-color: #f6f4fa;
+	}
+	.growth-2{
+		min-height: 180px;
+		background-color: #5e4260;
+	}
+	.photo-1{
+		min-height: 580px;
+		background-image: url(../img/be-active.jpg);
+		
+	}
+	.be-active{
+		min-height: 340px;
+		background-color: white;
+		
+	}
+	.photo-2{
+		min-height: 580px;
+		background-image: url(../img/find-contact.jpg);
+	}
+	.find-contact{
+		min-height: 335px;
+		background-color: white;
+		
+	}
+
+	.photo-3{
+		min-height: 580px;
+		background-image: url(../img/work-it.jpg);
+		
+	}
+	.work-it{
+		min-height: 370px;
+		background-color: white;
+	}
+
+}	
+

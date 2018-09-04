@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.column{
+	display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+
+/*div{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* padding: 180px 60px;*/
+
+.photo{
+	display: block;
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.btn{
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5e42b0;
+    opacity: 1;
+    color: white;
+    padding: 20px 56px 20px 105px;
+padding-left:30px;
+}
+
+.btn_apple{
+background: url(../svg/apple_logo_black.svg) no-repeat scroll 7px 7px;
+}
+.btn_google{
+background: url(../svg/google_play.svg) no-repeat scroll 7px 7px;
+}
+a {
+    text-decoration: none;
+    opacity: 0.75;
+    color: white;
+    color: inherit;
+	cursor: pointer;
+
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+
+/*.title{
+	text-transform: capitalize;
+	font: bold 90pt "Open Sans", sans-serif;
+    margin-bottom: 110px;
+    text-align: center;
+}*/
+/*p {
+    max-width: 700px;
+    max-height: 200px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+*/
+
+
+/*настройки хедера*/
+
+
+header{
+	position: relative;
+	justify-content: center;
+	min-height:960px;
+	color: #fff;
+	text-align: center;
+	    align-items: center;
+
+}
+
+header .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #0a0e34;
+	z-index: -1;
+}
+
+header .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0a0e34;
+	opacity: 0.9;
+}
+
+
+footer{
+	position: relative;
+	justify-content: center;
+	min-height:960px;
+	color: #fff;
+	text-align: center;
+	
+}
+footer .background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #0a0e34;
+	z-index: -1;
+}
+
+footer .background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0a0e34;
+	opacity: 0.9;
+}
+
+
+
+@font-face {
+font-family: "OpenSans-Bold"; 
+src: url("fonts/OpenSans-Bold.ttf"); 
+
+} 
+@font-face {
+font-family: "OpenSans-Regular"; 
+src: url("fonts/OpenSans-Regular.ttf"); 
+
+} 
+
+
+@media (min-width: 1920px) {
+	.gallery{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+   .axis{
+    	display: flex;
+    	flex-direction: row;
+    	align-items: stretch;
+    	}
+    	#axis_reverse{
+    		display: flex;
+    	flex-direction: row-reverse;
+    	align-items: center;
+    	}
+	/*галерея*/
+
+.photo-1{
+	min-height: 730px;
+	width: 50%;
+	background-image: url(../img/be-active.jpg);
+	
+}
+.be-active{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+	
+}
+.photo-2{
+	min-height: 730px;
+	width: 50%;
+	background-image: url(../img/find-contact.jpg);
+}
+.find-contact{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+	
+}
+
+.photo-3{
+	min-height: 730px;
+width: 50%;
+	background-image: url(../img/work-it.jpg);
+	
+}
+.work-it{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+}
+.title{
+	margin: 0 auto;
+}
+.p_2{
+		margin: 0 auto;
+
+}
+}
+
+

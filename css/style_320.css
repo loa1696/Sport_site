@@ -1,0 +1,116 @@
+
+@media  (max-width: 640px) {
+  
+  
+    .gallery{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    }
+
+.axis{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+    	#axis_reverse{
+    		display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+    	.photo{
+    		width: 100%;
+    	}
+    	
+
+    /*h1{
+	font:  85px "OpenSans-Bold", sans-serif;
+    margin-bottom: 30px;
+}
+h2{
+	font:  110px "OpenSans-Bold", sans-serif;
+    margin-bottom: 60px;
+}
+h3{
+	font:  43px "OpenSans-Bold", sans-serif;
+    margin-bottom: 30px;
+}
+p{
+	font:  21px "OpenSans-Bold", sans-serif;
+    margin-bottom: 40px;
+}*/
+
+
+.athlets{
+	min-height: 305px;
+	background-color: white;
+	
+}
+.connection_1{
+	min-height: 213px;
+	background-color: #fafafa;
+}
+.collaboration-1{
+	min-height: 262px;
+	background-color: #f6f4fa;
+}
+.growth-1{
+	min-height: 227px;
+	background-color: #5e4260;
+}
+.players{
+	min-height: 303px;
+	background-color: #ffff;
+}
+.connection_2{
+		min-height: 252px;
+	background-color: #fafafa;
+}
+.collaboration-2{
+	min-height: 195px;
+	background-color: #f6f4fa;
+}
+.growth-2{
+	min-height: 185px;
+	background-color: #5e4260;
+}
+.photo-1{
+	min-height: 350px;
+	background-image: url(../img/be-active.jpg);
+	
+}
+.be-active{
+	min-height: 210px;
+	background-color: white;
+	
+}
+.photo-2{
+	min-height: 350px;
+	background-image: url(../img/find-contact.jpg);
+}
+.find-contact{
+	min-height: 200px;
+	background-color: white;
+	
+}
+
+.photo-3{
+	min-height: 350px;
+	background-image: url(../img/work-it.jpg);
+	
+}
+.work-it{
+	min-height: 225px;
+	background-color: white;
+}
+footer{
+	min-height: 570px;
+	background-color: #0a0e34;
+	
+}
+
+}	
+
+
+
+

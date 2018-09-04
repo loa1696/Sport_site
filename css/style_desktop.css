@@ -1,0 +1,187 @@
+
+@media (min-width: 961px) and (max-width: 1920px) {
+
+ .gallery{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	}
+   .axis{
+    	display: flex;
+    	flex-direction: row;
+    	align-items: stretch;
+    	}
+    	#axis_reverse{
+    		display: flex;
+    	flex-direction: row-reverse;
+    	align-items: center;
+    	}
+    	
+    	
+
+    	
+}
+header{
+	padding: 0 180px 0 180px;
+}
+
+img{
+	position: absolute;
+}
+
+/*хедер*/
+#logo{
+	position: static;
+	height: 50px;
+	width: 190px;
+	margin: 45px  685px 290px 685px;
+	z-index: 2;
+	
+}
+h1{
+	font:  85px "OpenSans-Bold", sans-serif;
+	z-index: 3;
+
+}
+.title_1{
+	min-width: 685px;
+	margin: 0 1055px 25px 0;
+}
+.title_2{
+	min-width: 1080px;
+	margin: 25px 180px 0 465px;
+}
+
+/*первый блок*/
+.athlets{
+	min-height: 215px;
+	background-color: white;
+	
+}
+.connection_1{
+	min-height: 195px;
+}
+.collaboration-1{
+	min-height: 250px;
+	background-color: #f6f4fa;
+}
+.growth-1{
+	min-height: 230px; 
+	background-color: #5e42b0;
+	color: white;
+}
+.img_footballer{
+	position: absolute;
+	background-image: url(../img/footballer_566.png);
+	height: 908px;
+	width: 566px;
+	margin: 30px 50px 0 400px;
+	z-index: 5;
+}
+/*шрифты первый блок*/
+ h2{
+	font:  80px "OpenSans-Bold", sans-serif;
+	color: #e7e7e7;
+    margin: 120px 180px 45px 1005px;
+
+}
+ h3{
+	font:  36px "OpenSans-Bold", sans-serif;
+    margin: 60px 180px 30px 1005px;
+    color: #c1c1c1;
+}
+ p{
+	font:  20px "OpenSans-Regular", sans-serif;
+ 	margin: 0 180px 60px 1005px;
+}
+
+/*второй блок*/
+.players{
+	height: 225px;
+	background-color: #ffff;
+}
+.connection_2{
+	min-height: 220px;
+}
+.collaboration-2{
+	height: 230px;
+	background-color: #f6f4fa;
+}
+.growth-2{
+	height: 200px;
+	background-color: #0a0e34;
+	color: white;
+}
+.img_basketballer{
+	position: absolute;
+	height: 815px;
+	width: 991px;
+		z-index: 6;
+		background-image: url(../img/basketballer_991.png);
+	margin: 30px 130px 0 815px;
+}
+/*шрифты второй блок*/
+h4{
+	font:  80px "OpenSans-Bold", sans-serif;
+	color: #e7e7e7;
+    margin: 120px 980px 45px 180px;
+
+}
+h5{
+	font:  36px "OpenSans-Bold", sans-serif;
+    margin: 60px 980px 30px 180px;
+    color: #c1c1c1;
+}
+.p_1{
+	font:  20px "OpenSans-Regular", sans-serif;
+ 	margin: 0 980px 60px 180px;
+}
+
+/*галерея*/
+
+.photo-1{
+	min-height: 730px;
+	width: 50%;
+	background-image: url(../img/be-active.jpg);
+	
+}
+.be-active{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+	
+}
+.photo-2{
+	min-height: 730px;
+	width: 50%;
+	background-image: url(../img/find-contact.jpg);
+}
+.find-contact{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+	
+}
+
+.photo-3{
+	min-height: 730px;
+width: 50%;
+	background-image: url(../img/work-it.jpg);
+	
+}
+.work-it{
+	min-height: 730px;
+	width: 50%;
+	background-color: white;
+}
+.title{
+	margin: 0 auto;
+}
+.p_2{
+		margin: 0 auto;
+
+}
+
+}
+ 
+
